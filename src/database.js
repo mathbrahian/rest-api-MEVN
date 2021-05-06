@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb://Localhost/rest-api", {
+mongoose.connect("mongodb://Localhost/rest-api-login", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: true,

@@ -2,7 +2,8 @@ import { Schema, model } from "mongoose";
 
 const noteSchema = new Schema({
     title: String,
-    description: String
+    description: String,
+    userId: String 
 },{
     timestamps: true
 })
